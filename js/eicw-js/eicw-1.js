@@ -118,9 +118,6 @@ function updateHrefForDarkMode() {
     const osann1_link = document.getElementById('osann1');
     const osann1_img = document.getElementById('osann1-img');
 
-    const cs_link = document.getElementById('cs');
-    const cs_img = document.getElementById('cs-img');
-
     const ud_link = document.getElementById('ud');
     const ud_img = document.getElementById('ud-img');
 
@@ -252,9 +249,6 @@ function updateHrefForDarkMode() {
         osann1_link.href = 'img/eicw/osann1-dark.png';
         osann1_img.src = 'img/eicw/osann1-dark.png';
 
-        cs_link.href = 'img/eicw/cs-dark.png';
-        cs_img.src = 'img/eicw/cs-dark.png';
-
         ud_link.href = 'img/eicw/ud-dark.png';
         ud_img.src = 'img/eicw/ud-dark.png';
 
@@ -368,9 +362,6 @@ function updateHrefForDarkMode() {
         osann1_link.href = 'img/eicw/osann1-light.png';
         osann1_img.src = 'img/eicw/osann1-light.png';
 
-        cs_link.href = 'img/eicw/cs-light.png';
-        cs_img.src = 'img/eicw/cs-light.png';
-
         ud_link.href = 'img/eicw/ud-light.png';
         ud_img.src = 'img/eicw/ud-light.png';
 
@@ -402,4 +393,10 @@ document.addEventListener('DOMContentLoaded', function () {
             console.log('Autoplay was prevented:', error);
         });
     });
+});
+
+document.addEventListener('contextmenu', function(e) {
+    if (e.target.tagName === 'IMG') {
+        e.preventDefault();
+    }
 });

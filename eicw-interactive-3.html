@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>EICW - Implementation Brainstorming | WBN</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta property="og:image" content="https://i.imgur.com/kMi3VsK.png" />
+
+  <link rel="icon" href="img/core-img/favicon.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-breakpoints.css">
+  <link rel="stylesheet" href="css/dark-mode.css">
+
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/glightbox.min.css">
+</head>
+
+<body>
+
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+
+  <header class="header-area">
+
+    <div class="main-header-area">
+      <div class="classy-nav-container breakpoint-off">
+        <div class="container container-xxl">
+
+          <nav class="classy-navbar justify-content-between" id="pwNav">
+
+            <a class="nav-brand img-logo" href="https://nurafianzulkifli.com/index.html"><img class="logo-img"
+                src="img/core-img/logo.png" alt></a>
+
+            <div class="classy-navbar-toggler">
+              <span class="navbarToggler"><span></span><span></span><span></span></span>
+            </div>
+
+            <div class="classy-menu">
+
+              <div class="classycloseIcon">
+                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+              </div>
+
+              <div class="classynav">
+                <ul id="nav">
+                  <li><a href="https://nurafianzulkifli.com/index.html">Home</a></li>
+                  <li><a href="https://nurafianzulkifli.com/about.html">About</a></li>
+                  <li class="active"><a href="https://nurafianzulkifli.com/works-by-nrfz.html">Works By NRFZ</a></li>
+                  <li><a href="https://nurafianzulkifli.com/works-by-nrfz.html">Blog</a></li>
+                  <li><button class="wbnrfz_btn_theme" id="dark-mode-toggle" title="Toggle Dark/Light Mode!"><i
+                        class="fa-solid fa-moon"></i></button>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </nav>
+        </div>
+        <div class="progress-bar" id="scrollIndicator"></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="wbnrfz-summ-micro clearfix">
+    <div class="wbnrfz_details wow fadeInUp" data-wow-delay="100ms">
+      <div class="container">
+        <div class="col-lg-12">
+          <div class="main-title">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="https://nurafianzulkifli.com/index.html"> Home</a>
+                </li>
+                <li class="breadcrumb-item"><a href="https://nurafianzulkifli.com/works-by-nrfz.html"> Blog </a>
+                </li>
+              </ol>
+            </nav>
+            <h1>Experimenting Improvements of Current Wayfinding</h1>
+          </div>
+        </div>
+
+        <div class="details_catagory_wrap">
+          <div class="col-sm-4 single_catagory ">
+            <span>Category</span>
+            <h4>Concepts & Replications</h4>
+          </div>
+          <div class="col-sm-2 single_catagory">
+            <span>Project Year</span>
+            <h4>2024 - 2025</h4>
+          </div>
+          <div class="col-sm-2 single_catagory">
+            <span>Share Project</span>
+            <div class="social_links">
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https://nurafianzulkifli.github.io/eicw/eicw-interactive-2.html"
+                title="Facebook">
+                <i class="fa-brands fa-facebook"></i> </a>
+              <a href="https://x.com/intent/post?url=https://nurafianzulkifli.github.io/eicw/eicw-interactive-2.html&text= Experimenting Improvements of Current Wayfinding"
+                title="X (Twitter)">
+                <i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#" class="clipboard" onclick="copyToClipboard()" title="Copy Link"><i
+                  class="fa-solid fa-link"></i>
+                <p class="clipboard-copied" style="font-size: 12px;"></p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="breadcrumb-area-eicw-cover bg-img parallax" id="cv-img"
+    style="background-image: url(img/eicw/cover-light.png)">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+      </div>
+    </div>
+  </section>
+
+  <section class="about-me-summ section-padding-80-0 clearfix">
+    <div class="wbnrfz_details">
+      <div class="container container-mobile">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="row justify-content-center">
+
+              <!-- Preface -->
+              <div class="col-lg-12 wow fadeInUp" data-wow-delay="100ms">
+                <div class="info justify-content-center">
+                  <h2 class="mb-3 text-center" style="font-size: 30px; font-weight:bold; text-align: left;">Now it's
+                    time to showcase my ideas!</h2>
+                  <p style="text-align: left;">This section is dedicated specially to display my ideas & concepts on how
+                    I envision the current Wayfinding systems can be applied. It's ok to be ambitious here. The sky is
+                    the limit!</p>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="breadcrumb-area-eicw-subs bg-img bg-overlay parallax" id="iu-img"
+    style="background-image: url(img/eicw/iu-light.png)">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12">
+          <div class="breadcrumb-content text-center">
+            <h2 class="page-title">Customized Designs</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-me-summ section-padding-80-0 clearfix" style="padding-bottom: 10px;">
+    <div class="wbnrfz_details">
+      <div class="container container-mobile">
+        <div class="row justify-content-center">
+
+          <!-- Bus Route Diagrams Signages -->
+          <div class="col-lg-12 wow fadeInUp" data-wow-delay="100ms">
+            <div class="info justify-content-center">
+
+              <h2 class="mb-3 text-center" style="font-size: 30px; font-weight:bold ;">Bus Route Diagrams Signages for
+                key Bus Stops</h2>
+              <p style="text-align: left;">Introducing new Bus Route Diagrams Signages for key Bus Stops! (e.g. MRT
+                Stations, Hospitals etc). The route diagrams are here to help commuters visualize roughly the direction
+                of services.
+                <br> For full route
+                details, commuters can refer to the Bus Services Board which lists down the whole Bus Stops.
+              </p>
+            </div>
+
+            <div class="banner-eicw">
+              <a href="img/eicw/cs-light.png" id="cs" class="portfolio-img">
+                <img src="img/eicw/cs-light.png" id="cs-img" class="img-fluid" alt="cs">
+              </a>
+              <hr>
+            </div>
+          </div>
+
+          <!-- Bus Route Diagrams Signages -->
+          <div class="col-lg-12 wow fadeInUp" data-wow-delay="100ms">
+            <div class="info justify-content-center">
+
+              <h2 class="mb-3 text-center" style="font-size: 30px; font-weight:bold ;">Additional Wayfinding Signages</h2>
+              <p style="text-align: left;">Apart from the usual Wayfinding Signages, additional signages can be added to
+                help commuters navigate around the area. The designs shown here are redesigns from paper signages.
+                <br> I have talked about the Paper signages issues previously. Do have a read <a href="https://nurafianzulkifli.com/blog/wayfind-2.html">here</a>.
+              </p>
+            </div>
+
+            <div class="banner-eicw">
+              <a href="img/eicw/wfs-light.png" id="wfs" class="portfolio-img">
+                <img src="img/eicw/wfs-dark.png" id="wfs-img" class="img-fluid" alt="wfs">
+              </a>
+              <hr>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section class="about-me-summ section-padding-80-0 clearfix" style="padding-bottom: 3px; padding-top: 10px;">
+    <div class="wbnrfz_details">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="row justify-content-center">
+
+              <!-- Postface -->
+              <div class="col-lg-12 wow fadeInUp" data-wow-delay="100ms">
+                <div class="info justify-content-center">
+                  <h2 class="mb-3 text-center" style="font-size: 30px; font-weight:bold; text-align: left;">Postface
+                  </h2>
+                  <p style="text-align: left;">The different Brainstorming of Designs are a compilation of ideas from my
+                    Train Rides over the years, ever since the
+                    new Wayfinding System was introduced. You may notice many of the designs are catered for the Train's
+                    side of
+                    things. This is because whatever that is suggested can be easily re-applied for the Buses side of
+                    things as well.
+                  </p>
+                  <blockquote cite="https://imgur.com/9EFau4B">
+                    "Achieving consistency and replacing all signage across the country overnight is very challenging.
+                    While we wish
+                    to do so, it requires time, manpower, and careful planning. Compared to metro systems overseas, some
+                    signages
+                    also differ slightly, such as those of Taipei Metro and MTR."</blockquote>
+                  <p>Hence this microsite could be useful in diving in and exploring different ideas that can be used to
+                    make
+                    the wayfinding
+                    system better. Whether the ideas worked in real-life or not, is a different story. Well, if you have
+                    not tried, you will
+                    never know!
+                    This microsite is an extension to my Blog Posts, which can be found below!</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-me-summ section-padding-80-0 clearfix">
+    <div class="row mt-5">
+      <div class="col-pg text-center">
+        <div class="block-27">
+          <ul>
+            <li><a href="eicw-interactive-2.html">&lt;</a></li>
+            <li><a href="index.html">1</a></li>
+            <li><a href="eicw-interactive-2.html">2</a></li>
+            <li class="active"><a href="#">3</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section-otb" id="otb" style="padding-top: 3px;">
+    <div class="container container-xxl container-blogList">
+      <div class="row">
+        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="single-post-area wow fadeInUp" data-wow-delay="100ms">
+
+            <a href="https://nurafianzulkifli.com/blog/wayfind-2.html" class="post-thumbnail"><img src="https://i.imgur.com/Z6vKAa9.png"
+                alt="thumbnail-1"></a>
+
+            <a href="#" class="btn post-catagory">Wayfinding Design</a>
+
+            <div class="post-content">
+              <div class="post-meta">
+                <a href="#">October 12, 2024</a>
+              </div>
+              <a href="https://nurafianzulkifli.com/blog/wayfind-2.html" class="post-title">If you can't beat them, join them</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="single-post-area wow fadeInUp" data-wow-delay="100ms">
+
+            <a href="https://nurafianzulkifli.com/blog/wayfind.html" class="post-thumbnail"><img src="https://i.imgur.com/fZdhMEU.png"
+                alt="thumbnail-1"></a>
+
+            <a href="#" class="btn post-catagory">Wayfinding Design</a>
+
+            <div class="post-content">
+              <div class="post-meta">
+                <a href="#">June 30, 2024</a>
+              </div>
+              <a href="https://nurafianzulkifli.com/blog/wayfind.html" class="post-title">New Wayfinding System - How has it been so
+                far?</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="about-me-summ section-padding-80-0 clearfix">
+    <div class="wbnrfz_details wow fadeInUp" data-wow-delay="100ms">
+      <div class="container container-xxl container-mobile">
+        <div class="details_info">
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <div class="info justify-content-center">
+                <!-- Author -->
+                <div class="about-author d-flex p-4">
+                  <div class="bio mr-0 text-center">
+                    <img src="img/bg-img/about.png" alt="profile" class="img-blog-profile img-fluid mb-4">
+                  </div>
+                  <div class="desc">
+                    <h3 style="font-size: 30px; font-weight: bold;">Nurafian Zulkifli</h3>
+                    <p class="text-left">Passionate about Technology and Designs - mainly UI Designs, Wayfinding and
+                      Signage Designs.<br><br> I also
+                      enjoy replicating stuffs that interests me.</p>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+  </section>
+
+  <footer class="footer-area">
+    <div class="container container-xxl">
+      <div class="row">
+        <div class="col-12">
+          <div class="footer-content d-flex align-items-center justify-content-between">
+
+            <div class="copywrite-text">
+              <p>
+                &copy;
+                <script>document.write(new Date().getFullYear());</script> Nurafian Zulkifli</a>
+              </p>
+            </div>
+
+            <div class="social-info">
+              <a href="https://github.com/nurafianZulkifli"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/nrfzlkf_"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+              <a href="https://www.facebook.com/Nrfnzlkf/"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/zrfn_lkf/"><i class="fa-brands fa-instagram"
+                  aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" id="cookiebanner" src="js/cookies-banner.js" data-position="bottom" data-bg="#f2f3e5"
+    data-fg="#000" data-font-family="Onest, sans-serif" data-zindex="12345111111"
+    data-message="This website uses cookies to provide necessary site functionality and to improve your experience. By using this website, you agree to our use of cookies.">
+    </script>
+
+  <script src="js/eicw-js/eicw-3.js"></script>
+
+  <script src="js/jquery.min.js"></script>
+
+  <script src="js/popper.min.js"></script>
+
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/pw.bundle.js"></script>
+
+  <script src="js/default-assets/active.js"></script>
+
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <script src="js/glightbox.min.js"></script>
+
+  <script src="js/isotope.pkgd.min.js"></script>
+
+  <script src="js/portfolio-comp.js"></script>
+
+  <script src="js/copy-to-clipboard.js"></script>
+
+  <script src="js/scroll.js"></script>
+
+</body>
+
+</html>
