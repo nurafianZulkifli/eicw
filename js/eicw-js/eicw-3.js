@@ -30,6 +30,9 @@ function updateHrefForDarkMode() {
     const wfs_link = document.getElementById('wfs');
     const wfs_img = document.getElementById('wfs-img');
 
+    const wfs2_link = document.getElementById('wfs2');
+    const wfs2_img = document.getElementById('wfs2-img');
+
     /* Videos */
 
 
@@ -49,6 +52,9 @@ function updateHrefForDarkMode() {
         wfs_link.href = 'img/eicw/wfs-dark.png';
         wfs_img.src = 'img/eicw/wfs-dark.png';
 
+        wfs2_link.href = 'img/eicw/wfs2-dark.png';
+        wfs2_img.src = 'img/eicw/wfs2-dark.png';
+
 
         /* Videos */
 
@@ -65,6 +71,10 @@ function updateHrefForDarkMode() {
 
         wfs_link.href = 'img/eicw/wfs-light.png';
         wfs_img.src = 'img/eicw/wfs-light.png';
+
+        wfs2_link.href = 'img/eicw/wfs2-light.png';
+        wfs2_img.src = 'img/eicw/wfs2-light.png';
+
 
         /* Videos */
 
