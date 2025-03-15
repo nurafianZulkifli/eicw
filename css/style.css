@@ -121,7 +121,8 @@ ul li {
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: rgba(0, 0, 0, 0.773)
+    background-color: rgba(36, 36, 36, 0.842);
+    backdrop-filter: blur(3px);
 }
 
 .row {

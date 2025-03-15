@@ -21,7 +21,7 @@ toggleButton.addEventListener('click', () => {
 function updateHrefForDarkMode() {
     /* Banners */
     const coverSect = document.getElementById('cv-img');
-    // const iuSect = document.getElementById('iu-img');
+    const pidSect = document.getElementById('pid-img');
 
     /* Images */
     // const cs_link = document.getElementById('cs');
@@ -42,7 +42,7 @@ function updateHrefForDarkMode() {
     if (isDarkMode) {
         /* Banners */
         coverSect.style.backgroundImage = "url('img/eicw/cover-dark.png')";
-        // iuSect.style.backgroundImage = "url('img/eicw/iu-dark.png')";
+        pidSect.style.backgroundImage = "url('img/eicw/pid-dark.png')";
 
 
         /* Images */
@@ -62,7 +62,7 @@ function updateHrefForDarkMode() {
     } else {
         /* Banners */
         coverSect.style.backgroundImage = "url('img/eicw/cover-light.png')";
-        // iuSect.style.backgroundImage = "url('img/eicw/iu-light.png')";
+        pidSect.style.backgroundImage = "url('img/eicw/pid-light.png')";
  
 
         /* Images */

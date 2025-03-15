@@ -260,6 +260,22 @@ body.dark-mode .wbnrfz-summ-micro {
     padding-bottom: 10px;
 }
 
+body.dark-mode .bg-overlay::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.773);
+    backdrop-filter: blur(3px);
+}
+
+body.dark-mode h2.page-title {
+    color: #fff !important;
+}
+
 body.dark-mode .breadcrumb-item+.breadcrumb-item::before {
     content: '\f105';
     color: #fff;
