@@ -2034,6 +2034,10 @@ hr {
     max-width: 1450px;
 }
 
+.container-blogList-eicw {
+    max-width: 1300px;
+}
+
 .blog-entry {
     background: #ffffff;
     margin-bottom: 30px;
@@ -2267,5 +2271,7 @@ h2.page-title {
     padding: 5em 0;
     background-color: #e9eae5;
 }
+
+
 
 /* ------------------------------------------ */
