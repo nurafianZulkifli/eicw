@@ -35,6 +35,9 @@ function updateHrefForDarkMode() {
     const wfm_link = document.getElementById('wfm');
     const wfm_img = document.getElementById('wfm-img');
 
+    const evo3_link = document.getElementById('evo3');
+    const evo3_img = document.getElementById('evo3-img');
+
 
     /* Videos */
 
@@ -60,7 +63,8 @@ function updateHrefForDarkMode() {
         wfm_link.href = 'img/eicw/ccl6-7aD.png';
         wfm_img.src = 'img/eicw/ccl6-7aD.png';
 
-
+        evo3_link.href = 'img/eicw/ccl6-overview-dark.png';
+        evo3_img.src = 'img/eicw/ccl6-overview-dark.png';
 
         /* Videos */
 
@@ -82,6 +86,9 @@ function updateHrefForDarkMode() {
 
         wfm_link.href = 'img/eicw/ccl6-7aL.png';
         wfm_img.src = 'img/eicw/ccl6-7aL.png';
+
+        evo3_link.href = 'img/eicw/ccl6-overview-light.png';
+        evo3_img.src = 'img/eicw/ccl6-overview-light.png';
 
 
         /* Videos */
