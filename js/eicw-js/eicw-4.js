@@ -21,17 +21,19 @@ toggleButton.addEventListener('click', () => {
 function updateHrefForDarkMode() {
     /* Banners */
     const coverSect = document.getElementById('cv-img');
-    const pidSect = document.getElementById('pid-img');
+    const platSect = document.getElementById('plat-img');
+    const entSect = document.getElementById('ent-img');
 
     /* Images */
-    // const cs_link = document.getElementById('cs');
-    // const cs_img = document.getElementById('cs-img');
+    const cclDiag_link = document.getElementById('ccl-diag');
+    const cclDiag_img = document.getElementById('ccl-diag-img');
 
-    // const wfs_link = document.getElementById('wfs');
-    // const wfs_img = document.getElementById('wfs-img');
+    const arrow_link = document.getElementById('arrow');
+    const arrow_img = document.getElementById('arrow-img');
 
-    // const wfs2_link = document.getElementById('wfs2');
-    // const wfs2_img = document.getElementById('wfs2-img');
+    const wfm_link = document.getElementById('wfm');
+    const wfm_img = document.getElementById('wfm-img');
+
 
     /* Videos */
 
@@ -42,18 +44,20 @@ function updateHrefForDarkMode() {
     if (isDarkMode) {
         /* Banners */
         coverSect.style.backgroundImage = "url('img/eicw/cover-dark.png')";
-        pidSect.style.backgroundImage = "url('img/eicw/pid-dark.png')";
+        platSect.style.backgroundImage = "url('img/eicw/plat-dark.png')";
+        entSect.style.backgroundImage = "url('img/eicw/ent-dark.png')";
 
 
         /* Images */
-        // cs_link.href = 'img/eicw/cs-dark.png';
-        // cs_img.src = 'img/eicw/cs-dark.png';
+        cclDiag_link.href = 'img/eicw/ccl-diag-dark.png';
+        cclDiag_img.src = 'img/eicw/ccl-diag-dark.png';
 
-        // wfs_link.href = 'img/eicw/wfs-dark.png';
-        // wfs_img.src = 'img/eicw/wfs-dark.png';
+        arrow_link.href = 'img/eicw/arrow-dark.png';
+        arrow_img.src = 'img/eicw/arrow-dark.png';
 
-        // wfs2_link.href = 'img/eicw/wfs2-dark.png';
-        // wfs2_img.src = 'img/eicw/wfs2-dark.png';
+        wfm_link.href = 'img/eicw/ccl6-7aD.png';
+        wfm_img.src = 'img/eicw/ccl6-7aD.png';
+
 
 
         /* Videos */
@@ -62,18 +66,19 @@ function updateHrefForDarkMode() {
     } else {
         /* Banners */
         coverSect.style.backgroundImage = "url('img/eicw/cover-light.png')";
-        pidSect.style.backgroundImage = "url('img/eicw/pid-light.png')";
- 
+        platSect.style.backgroundImage = "url('img/eicw/plat-light.png')";
+        entSect.style.backgroundImage = "url('img/eicw/ent-light.png')";
+
 
         /* Images */
-        // cs_link.href = 'img/eicw/cs-light.png';
-        // cs_img.src = 'img/eicw/cs-light.png';
+        cclDiag_link.href = 'img/eicw/ccl-diag-light.png';
+        cclDiag_img.src = 'img/eicw/ccl-diag-light.png';
 
-        // wfs_link.href = 'img/eicw/wfs-light.png';
-        // wfs_img.src = 'img/eicw/wfs-light.png';
+        arrow_link.href = 'img/eicw/arrow-light.png';
+        arrow_img.src = 'img/eicw/arrow-light.png';
 
-        // wfs2_link.href = 'img/eicw/wfs2-light.png';
-        // wfs2_img.src = 'img/eicw/wfs2-light.png';
+        wfm_link.href = 'img/eicw/ccl6-7aL.png';
+        wfm_img.src = 'img/eicw/ccl6-7aL.png';
 
 
         /* Videos */
@@ -93,8 +98,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-document.addEventListener('contextmenu', function(e) {
-    if (e.target.tagName === 'IMG') {
-        e.preventDefault();
-    }
-});
+// document.addEventListener('contextmenu', function(e) {
+//     if (e.target.tagName === 'IMG') {
+//         e.preventDefault();
+//     }
+// });
