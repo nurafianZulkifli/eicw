@@ -23,6 +23,7 @@ function updateHrefForDarkMode() {
     const coverSect = document.getElementById('cv-img');
     const platSect = document.getElementById('plat-img');
     const entSect = document.getElementById('ent-img');
+    const concSect = document.getElementById('conc-img');
 
     /* Images */
     const cclDiag_link = document.getElementById('ccl-diag');
@@ -46,6 +47,7 @@ function updateHrefForDarkMode() {
         coverSect.style.backgroundImage = "url('img/eicw/cover-dark.png')";
         platSect.style.backgroundImage = "url('img/eicw/plat-dark.png')";
         entSect.style.backgroundImage = "url('img/eicw/ent-dark.png')";
+        concSect.style.backgroundImage = "url('img/eicw/conc-dark.png')";
 
 
         /* Images */
@@ -68,6 +70,7 @@ function updateHrefForDarkMode() {
         coverSect.style.backgroundImage = "url('img/eicw/cover-light.png')";
         platSect.style.backgroundImage = "url('img/eicw/plat-light.png')";
         entSect.style.backgroundImage = "url('img/eicw/ent-light.png')";
+        concSect.style.backgroundImage = "url('img/eicw/conc-light.png')";
 
 
         /* Images */
