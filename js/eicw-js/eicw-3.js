@@ -33,6 +33,12 @@ function updateHrefForDarkMode() {
     const wfs2_link = document.getElementById('wfs2');
     const wfs2_img = document.getElementById('wfs2-img');
 
+    const lcd1_link = document.getElementById('lcd1');
+    const lcd1_img = document.getElementById('lcd1-img');
+
+    const lcd2_link = document.getElementById('lcd2');
+    const lcd2_img = document.getElementById('lcd2-img');
+
     /* Videos */
 
 
@@ -55,6 +61,12 @@ function updateHrefForDarkMode() {
         wfs2_link.href = 'img/eicw/wfs2-dark.png';
         wfs2_img.src = 'img/eicw/wfs2-dark.png';
 
+        lcd1_link.href = 'img/eicw/lcd-dark.png';
+        lcd1_img.src = 'img/eicw/lcd-dark.png';
+
+        lcd2_link.href = 'img/eicw/lcd2-dark.png';
+        lcd2_img.src = 'img/eicw/lcd2-dark.png';
+
 
         /* Videos */
 
@@ -63,7 +75,7 @@ function updateHrefForDarkMode() {
         /* Banners */
         coverSect.style.backgroundImage = "url('img/eicw/cover-light.png')";
         iuSect.style.backgroundImage = "url('img/eicw/iu-light.png')";
- 
+
 
         /* Images */
         cs_link.href = 'img/eicw/cs-light.png';
@@ -74,6 +86,12 @@ function updateHrefForDarkMode() {
 
         wfs2_link.href = 'img/eicw/wfs2-light.png';
         wfs2_img.src = 'img/eicw/wfs2-light.png';
+
+        lcd1_link.href = 'img/eicw/lcd-light.png';
+        lcd1_img.src = 'img/eicw/lcd-light.png';
+
+        lcd2_link.href = 'img/eicw/lcd2-light.png';
+        lcd2_img.src = 'img/eicw/lcd2-light.png';
 
 
         /* Videos */
@@ -93,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-document.addEventListener('contextmenu', function(e) {
+document.addEventListener('contextmenu', function (e) {
     if (e.target.tagName === 'IMG') {
         e.preventDefault();
     }
